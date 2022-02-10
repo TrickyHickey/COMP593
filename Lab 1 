@@ -63,19 +63,23 @@
         "colab": {
           "base_uri": "https://localhost:8080/"
         },
-        "outputId": "f85fbc47-c053-4f6b-fbae-d884004af01c"
+        "outputId": "2fe5055d-df95-4e62-f4ac-3729cc4a3a62"
       },
       "source": [
         "pip install pyfiglet\n"
       ],
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
+          "name": "stdout",
           "text": [
-            "Requirement already satisfied: pyfiglet in /usr/local/lib/python3.6/dist-packages (0.8.post1)\n"
-          ],
-          "name": "stdout"
+            "Collecting pyfiglet\n",
+            "  Downloading pyfiglet-0.8.post1-py2.py3-none-any.whl (865 kB)\n",
+            "\u001b[?25l\r\u001b[K     |▍                               | 10 kB 23.5 MB/s eta 0:00:01\r\u001b[K     |▊                               | 20 kB 30.4 MB/s eta 0:00:01\r\u001b[K     |█▏                              | 30 kB 24.5 MB/s eta 0:00:01\r\u001b[K     |█▌                              | 40 kB 15.7 MB/s eta 0:00:01\r\u001b[K     |██                              | 51 kB 17.5 MB/s eta 0:00:01\r\u001b[K     |██▎                             | 61 kB 15.9 MB/s eta 0:00:01\r\u001b[K     |██▋                             | 71 kB 14.3 MB/s eta 0:00:01\r\u001b[K     |███                             | 81 kB 15.6 MB/s eta 0:00:01\r\u001b[K     |███▍                            | 92 kB 15.4 MB/s eta 0:00:01\r\u001b[K     |███▉                            | 102 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████▏                           | 112 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████▌                           | 122 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████                           | 133 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████▎                          | 143 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████▊                          | 153 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████                          | 163 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████▍                         | 174 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████▉                         | 184 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████▏                        | 194 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████▋                        | 204 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████                        | 215 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████▎                       | 225 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████▊                       | 235 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████                       | 245 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████▌                      | 256 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████▉                      | 266 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████▏                     | 276 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████▋                     | 286 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████                     | 296 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████▍                    | 307 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████▊                    | 317 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████                    | 327 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████▌                   | 337 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████▉                   | 348 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████▎                  | 358 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████▋                  | 368 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████                  | 378 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████▍                 | 389 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████▊                 | 399 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████▏                | 409 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████▌                | 419 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████                | 430 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████▎               | 440 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████▋               | 450 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████               | 460 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████▍              | 471 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████▉              | 481 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████▏             | 491 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████▌             | 501 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████             | 512 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████▎            | 522 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████▊            | 532 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████            | 542 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████▍           | 552 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████▉           | 563 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████▏          | 573 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████▋          | 583 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████          | 593 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████▎         | 604 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████▊         | 614 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████         | 624 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████▌        | 634 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████▉        | 645 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████▏       | 655 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████▋       | 665 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████████       | 675 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████████▍      | 686 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████████▊      | 696 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████▏     | 706 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████▌     | 716 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████▉     | 727 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████████▎    | 737 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████████▋    | 747 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████    | 757 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████▍   | 768 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████▊   | 778 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████████████▏  | 788 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |█████████████████████████████▌  | 798 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████████  | 808 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████████▎ | 819 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |██████████████████████████████▋ | 829 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████████████ | 839 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████████████▍| 849 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |███████████████████████████████▉| 860 kB 14.8 MB/s eta 0:00:01\r\u001b[K     |████████████████████████████████| 865 kB 14.8 MB/s \n",
+            "\u001b[?25hInstalling collected packages: pyfiglet\n",
+            "Successfully installed pyfiglet-0.8.post1\n"
+          ]
         }
       ]
     },
@@ -148,15 +152,61 @@
     {
       "cell_type": "code",
       "metadata": {
-        "id": "zR6mZpfkgRxd"
+        "id": "zR6mZpfkgRxd",
+        "outputId": "d23366ba-668f-4bd4-dd1e-f8086fb069c8",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
       },
       "source": [
         "from pyfiglet import Figlet\n",
         "\n",
         "help(Figlet)"
       ],
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Help on class Figlet in module pyfiglet:\n",
+            "\n",
+            "class Figlet(builtins.object)\n",
+            " |  Figlet(font='standard', direction='auto', justify='auto', width=80)\n",
+            " |  \n",
+            " |  Main figlet class.\n",
+            " |  \n",
+            " |  Methods defined here:\n",
+            " |  \n",
+            " |  __init__(self, font='standard', direction='auto', justify='auto', width=80)\n",
+            " |      Initialize self.  See help(type(self)) for accurate signature.\n",
+            " |  \n",
+            " |  getDirection(self)\n",
+            " |  \n",
+            " |  getFonts(self)\n",
+            " |  \n",
+            " |  getJustify(self)\n",
+            " |  \n",
+            " |  renderText(self, text)\n",
+            " |  \n",
+            " |  setFont(self, **kwargs)\n",
+            " |  \n",
+            " |  ----------------------------------------------------------------------\n",
+            " |  Data descriptors defined here:\n",
+            " |  \n",
+            " |  __dict__\n",
+            " |      dictionary for instance variables (if defined)\n",
+            " |  \n",
+            " |  __weakref__\n",
+            " |      list of weak references to the object (if defined)\n",
+            " |  \n",
+            " |  direction\n",
+            " |  \n",
+            " |  justify\n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
@@ -182,19 +232,81 @@
         "id": "b2y8sufRoEpR"
       },
       "source": [
+        ""
+      ],
+      "execution_count": 19,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "outputId": "17823c53-f6a8-4231-d7f7-ae51df24f6ad",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9QTyqrvOAuDh"
+      },
+      "source": [
+        "#Import Figlet so it can be used\n",
         "from pyfiglet import Figlet\n",
         "\n",
-        "#Instantiate a Figlet Object\n",
-        "figlet = Figlet()\n",
+        "#font options \n",
+        "font_selection = ['xsansi', 'twopoint', 'fair_mea', 'eftiwater', 'small']\n",
         "\n",
-        "#Prompt the user to select a font\n",
-        "selectedFont = input(\"Select a font: \\n 1. ______ \\n 2. ______ \\n 3. ______ \\n 4. ______ \\n >>> \")\n",
+        "#Ask user for a font \n",
+        "chosen_font = int(input(\"Select one of the fonts: \\n 0. xsansi \\n 1. twopoint \\n 2. fair_mea \\n 3. eftiwater \\n 4. small \\n\"))\n",
         "\n",
-        "#Prompt the user to type a message\n",
-        "# ... ... ..."
+        "font = font_selection[chosen_font]\n",
+        "\n",
+        "figlet = Figlet(font=font)\n",
+        "\n",
+        "#Ask user for a message\n",
+        "message = input(\"Tpye your message\")\n",
+        "\n",
+        "#Execution \n",
+        "print(figlet.renderText(message))\n",
+        "\n"
       ],
-      "execution_count": null,
-      "outputs": []
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Select one of the fonts: \n",
+            " 0. xsansi \n",
+            " 1. twopoint \n",
+            " 2. fair_mea \n",
+            " 3. eftiwater \n",
+            " 4. small \n",
+            "0\n",
+            "Tpye your messageich spreche deutsch\n",
+            "                                                          \n",
+            "  #        #                                    #         \n",
+            "           #                                    #         \n",
+            " #    ##  # ##     ###   # ##  # #   ###   ##  # ##   ### \n",
+            " #   #    ## #    #      ## #  ###  #  #  #    ## #  #  # \n",
+            " #  #     #  #    ##     #  #  #   #  #  #     #  # #  #  \n",
+            "#   #    #  #      ##   #   # #    ###   #    #  #  ###   \n",
+            "#   #    #  #       #   #  #  #    #     #    #  #  #     \n",
+            "#    ##  #  #    ###    ###   #     ###   ##  #  #   ###  \n",
+            "                       #                                  \n",
+            "                       #                                  \n",
+            "                                         \n",
+            "     #                               #   \n",
+            "     #               #               #   \n",
+            "  ###    ###  #  # ####   ###   ##  # ## \n",
+            " #  #   #  #  #  #  #    #     #    ## # \n",
+            "#   #  #  #   #  #  #    ##   #     #  # \n",
+            "#  #   ###   #  #  #      ##  #    #  #  \n",
+            "# ##   #     # ##  #       #  #    #  #  \n",
+            "## #    ###  ## #  ##   ###    ##  #  #  \n",
+            "                                         \n",
+            "                                         \n",
+            "\n"
+          ]
+        }
+      ]
     },
     {
       "cell_type": "markdown",
